@@ -50,7 +50,16 @@
 <p>© 2026 Hello My Doctor</p>
 </footer>
 
-</body>
+</body><script>
+document.getElementById("appointmentForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    document.getElementById("successMessage").innerHTML =
+    "✅ Appointment Booked Successfully!";
+
+    this.reset();
+});
+  </script>
 </html><section class="appointment-form">
   <h2>Book Appointment</h2>
 
