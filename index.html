@@ -51,4 +51,27 @@
 </footer>
 
 </body>
-</html>
+</html><section class="appointment-form">
+  <h2>Book Appointment</h2>
+
+  <form id="appointmentForm">
+    <input type="text" id="name" placeholder="Patient Name" required>
+
+    <input type="tel" id="phone" placeholder="Mobile Number" required>
+
+    <select id="doctor" required>
+      <option value="">Select Doctor</option>
+      <option>General Physician</option>
+      <option>Cardiologist</option>
+      <option>Dentist</option>
+    </select>
+
+    <input type="date" id="date" required>
+
+    <input type="time" id="time" required>
+
+    <button type="submit">Confirm Appointment</button>
+  </form>
+
+  <p id="successMessage"></p>
+  </section>
