@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hello My Doctor</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+<h1>Book Doctor Appointment Online</h1>
+
+<p>अपने पसंदीदा डॉक्टर से आसानी से अपॉइंटमेंट बुक करें।</p>
+
+<a href="#appointment">
+<button>Book Appointment</button>
+</a>
+</header>
+
+<section class="doctors">
+
+<div class="card">
+<h2>👨‍⚕️ General Physician</h2>
+<p>Starting ₹300</p>
+</div>
+
+<div class="card">
+<h2>❤️ Cardiologist</h2>
+<p>Starting ₹700</p>
+</div>
+
+<div class="card">
+<h2>🦷 Dentist</h2>
+<p>Starting ₹500</p>
+</div>
+
+</section>     <section id="appointment" class="appointment">
+
+<h2>Book Appointment</h2>
+
+<form id="appointmentForm">
+
+<input type="text"
+id="name"
+placeholder="Patient Name"
+required>
+
+<input type="tel"
+id="phone"
+placeholder="Mobile Number"
+required>
+
+<select id="doctor" required>
+<option value="">Select Doctor</option>
+<option>General Physician</option>
+<option>Cardiologist</option>
+<option>Dentist</option>
+</select>
+
+<input type="date" id="date" required>
+
+<input type="time" id="time" required>
+
+<button type="submit">
+Confirm Appointment
+</button>
+
+</form>
+
+<p id="successMessage"></p>
+
+</section>
+
+<footer>
+<p>© 2026 Hello My Doctor</p>
+      </footer> <script>
+
+document.getElementById("appointmentForm").addEventListener("submit", function(e){
+
+e.preventDefault();
+
+document.getElementById("successMessage").innerHTML =
+"✅ Appointment Booked Successfully!";
+
+this.reset();
+</html><section class="contact">
+
+<h2>Contact Us</h2>
+
+<p>📞 Mobile: +91 XXXXXXXXXX</p>
+
+<p>📧 Email: support@hellomydoctor.com</p>
+
+<p>📍 India</p>
+
+</section>
+
+<nav class="bottom-nav">
+
+<a href="#">🏠 Home</a>
+
+<a href="#appointment">📅 Appointment</a>
+
+<a href="#">👨‍⚕️ Doctors</a>
+
+<a href="#">👤 Login</a>
+
+      </nav>
       
+});
+
+</script>
+
+</body>
+      </html
+
