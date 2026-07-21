@@ -1,18 +1,22 @@
 
-body{
+*{
 margin:0;
+padding:0;
+box-sizing:border-box;
 font-family:Arial,sans-serif;
-background:#f5f7fa;
+}
+
+body{
+background:#f4f7fb;
 }
 
 header{
-background:#0b7dda;
+background:#0d6efd;
 color:white;
-padding:15px;
 display:flex;
 justify-content:space-between;
 align-items:center;
-flex-wrap:wrap;
+padding:15px 20px;
 }
 
 .logo{
@@ -23,51 +27,56 @@ font-weight:bold;
 nav a{
 color:white;
 text-decoration:none;
-margin:10px;
+margin-left:15px;
 font-weight:bold;
 }
 
 .hero{
 text-align:center;
 padding:60px 20px;
-background:#e8f4ff;
+background:#eaf4ff;
 }
 
 .hero h1{
-font-size:35px;
+font-size:32px;
+margin-bottom:10px;
 }
 
-.hero button{
-padding:15px 30px;
+.hero p{
+margin-bottom:20px;
+}
+
+button{
 background:#28a745;
 color:white;
 border:none;
+padding:12px 25px;
 border-radius:8px;
-font-size:18px;
+font-size:16px;
 cursor:pointer;
 }
 
-.services{
+.doctors{
 display:flex;
 justify-content:center;
 flex-wrap:wrap;
 padding:30px;
+gap:20px;
 }
 
 .card{
 background:white;
-width:280px;
-margin:15px;
 padding:20px;
-border-radius:10px;
-box-shadow:0 2px 10px rgba(0,0,0,.1);
+width:260px;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,.1);
 text-align:center;
 }
 
 footer{
-background:#0b7dda;
+background:#0d6efd;
 color:white;
 text-align:center;
 padding:15px;
-margin-top:20px;
+margin-top:30px;
 }
