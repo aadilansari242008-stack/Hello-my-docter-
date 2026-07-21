@@ -80,3 +80,30 @@ text-align:center;
 padding:15px;
 margin-top:30px;
 }
+.appointment-form{
+    max-width:400px;
+    margin:30px auto;
+    padding:20px;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form button{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    font-size:16px;
+}
+
+.appointment-form button{
+    background:#28a745;
+    color:white;
+    border:none;
+    border-radius:8px;
+}
+
+#successMessage{
+    color:green;
+    font-weight:bold;
+    text-align:center;
+  }
